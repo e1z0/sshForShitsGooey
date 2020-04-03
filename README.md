@@ -11,6 +11,8 @@ git clone https://github.com/e1z0/sshForShitsGooey.git
 cd sshForShitsGooey
 (root) npm install --global gulp-cli node-gyp
 npm cache clean && rm -rf node_modules && npm install
+cd node_modules/mongo
+npm install
 ```
 
 Edit file file lib/db/db.js
